@@ -1,7 +1,7 @@
 var AppDispatcher = require('./../dispatcher/AppDispatcher');
 var RouterConstants = require('./../constants/RouterConstants');
 
-var RouterActions = {
+var RouterController = {
 
 	navigate: function(url) {
 		AppDispatcher.onRouterAction({
@@ -12,4 +12,4 @@ var RouterActions = {
 
 };
 
-module.exports = RouterActions;
+module.exports = RouterController;

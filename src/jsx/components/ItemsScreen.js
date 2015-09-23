@@ -5,8 +5,8 @@ var React = require('react');
 var ItemsDetail = require('./ItemsDetail');
 var ItemsList = require('./ItemsList');
 var _ = require('underscore');
-var ItemsActions = require('./../actions/ItemsActions');
-var RouterActions = require('./../actions/RouterActions');
+var ItemsActions = require('../controllers/ItemsController');
+var RouterActions = require('../controllers/RouterController');
 
 var ItemsScreen = React.createClass({
 

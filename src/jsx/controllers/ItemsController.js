@@ -1,7 +1,7 @@
 var AppDispatcher = require('./../dispatcher/AppDispatcher');
 var ItemConstants = require('./../constants/ItemConstants');
 
-var ItemsActions = {
+var ItemsController = {
 
 	create: function() {
 		AppDispatcher.onViewAction({
@@ -31,4 +31,4 @@ var ItemsActions = {
 	}
 };
 
-module.exports = ItemsActions;
+module.exports = ItemsController;

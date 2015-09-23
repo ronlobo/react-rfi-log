@@ -3,8 +3,8 @@
  */
 var React = require('react/addons');
 var _ = require('underscore');
-var ItemsActions = require('./../actions/ItemsActions');
-var RouterActions = require('./../actions/RouterActions');
+var ItemsActions = require('../controllers/ItemsController');
+var RouterActions = require('../controllers/RouterController');
 
 var ItemsDetail = React.createClass({
 
